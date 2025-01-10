@@ -19,6 +19,7 @@ A função sos() é chamada repetidamente a cada 3 segundos para enviar o sinal 
 Funções Auxiliares:
 
 ponto(): Envia um ponto (.) em código Morse.
+
 barra(): Envia um traço (-) em código Morse.
 
 O algoritmo foi simulado no Wokwi através do link: https://wokwi.com/projects/419552104397774849
