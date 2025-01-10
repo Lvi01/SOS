@@ -6,7 +6,6 @@ Funcionalidades Principais:
 - Inicialização dos Componentes: A função init_components() configura o pino GPIO 11 como saída.
 - Envio do Sinal SOS: A função sos() envia a sequência de sinais em código Morse correspondente ao SOS.
 - Envio de Pontos e Traços: As funções ponto() e barra() enviam pontos e traços em código Morse, respectivamente, controlando o estado do LED (ligado/desligado) e os intervalos de tempo apropriados.
-- Estrutura do Código
 
 Inicialização:
 
