@@ -86,7 +86,7 @@ void ponto() {
 }
 
 void barra() {
-    for(int i = 0; i < 3; i++) {
+    for(int i = 0; i < 2; i++) {
         gpio_put(11, 1);
         sleep_ms(800);
         gpio_put(11, 0);
