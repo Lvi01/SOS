@@ -1,6 +1,6 @@
 #include "pico/stdlib.h"
 
-#define GPIO_LED_RED 11 // Pino GPIO 11
+#define GPIO_LED_GREEN 11 // Pino GPIO 11
 
 /**
  * @brief Inicializa os componentes necessários.
@@ -57,8 +57,8 @@ int main(){
 
 
 void init_components() {
-    gpio_init(GPIO_LED_RED);
-    gpio_set_dir(GPIO_LED_RED, GPIO_OUT);
+    gpio_init(GPIO_LED_GREEN);
+    gpio_set_dir(GPIO_LED_GREEN, GPIO_OUT);
 }
 
 void sos() {
